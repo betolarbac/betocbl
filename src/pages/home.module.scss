@@ -1,0 +1,105 @@
+.contentContainer {
+    
+    margin: 0 auto;
+    padding: 0 2rem;
+    
+    margin-top: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    img {
+      width: 50%;
+      margin-left: auto;
+      position: absolute;
+      
+      left: 50%;
+      
+     
+    }
+
+    .hero {
+      margin-left: 12rem;
+  
+      h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+        font-weight: 600;
+        color: #00D2DF;
+    
+       
+      }
+    
+      p {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        margin-top: 1rem;
+        
+    
+      }
+
+      button {
+        border-radius: 10px;
+        padding: 1.5rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-top: 4rem;
+        margin-right: 1rem;
+        padding: 0.5rem 3rem;
+        color: white;
+        
+        border: solid 3px transparent;
+
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #9358F7, #10D7E2);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 1000px 1px black inset;
+
+      
+
+        svg {
+          width: 30px;
+          height: 25px;
+        }
+        
+        svg:first-child {
+          margin-right: 1rem; 
+        }
+      }
+
+     
+
+      
+      .button1 {
+        border-radius: 10px;
+        padding: 1.5rem;
+        font-size: 1.3rem;
+        margin-top: 4rem;
+        margin-right: 1rem;
+        padding: 0.5rem 3rem;
+        color: white;
+        box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+        border: solid 3px transparent;
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #D24074, #6518B4);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 1000px 1px black inset;
+        svg {
+          width: 30px;
+          height: 25px;
+        }
+      }
+
+      button:hover {
+        box-shadow: none;
+        transition: 0.8s;
+        
+      }
+   
+    }
+  }
+  
+  
+
