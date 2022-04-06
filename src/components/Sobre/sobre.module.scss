@@ -1,0 +1,123 @@
+.contentContainer {
+    
+    max-width: 1280px;
+    
+    margin: 0 auto;
+    padding: 0 2rem;
+    
+    margin-top: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    img {
+     width: 300px;
+     height: 350px;
+    border-left: 5px solid #00D2DF;
+     
+    }
+
+    .hero {
+      margin-bottom: 1rem;
+  
+      h1 {
+        font-size: 2rem;
+        line-height: 4rem;
+        font-weight: 600;
+        color: #FFFFFF;
+        
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        line-height: 4rem;
+        font-weight: 500;
+        color: #FFFFFF;
+        
+      }
+    
+    
+      p {
+        font-weight: 300;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        margin-top: 1rem;
+        color: #C4C4C4;
+        margin-bottom: 1rem;
+        
+    
+      }
+
+      a {
+        
+        svg {
+            width: 28px;
+            height: 30px;
+            margin-right: 1.5rem;
+          }
+      }
+
+      button {
+        border-radius: 10px;
+        padding: 1.5rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-top: 4rem;
+        margin-right: 1rem;
+        padding: 0.5rem 3rem;
+        color: white;
+        
+        border: solid 3px transparent;
+
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #9358F7, #10D7E2);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 1000px 1px black inset;
+
+      
+
+        svg {
+          width: 30px;
+          height: 25px;
+        }
+        
+        svg:first-child {
+          margin-right: 1rem; 
+        }
+      }
+
+     
+
+      
+      .button1 {
+        border-radius: 10px;
+        padding: 1.5rem;
+        font-size: 1.3rem;
+        margin-top: 4rem;
+        margin-right: 1rem;
+        padding: 0.5rem 3rem;
+        color: white;
+        box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+        border: solid 3px transparent;
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #D24074, #6518B4);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 1000px 1px black inset;
+        svg {
+          width: 30px;
+          height: 25px;
+        }
+      }
+
+      button:hover {
+        box-shadow: none;
+        transition: 0.8s;
+        
+      }
+   
+    }
+  }
+  
+  
+
