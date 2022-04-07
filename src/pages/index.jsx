@@ -1,14 +1,18 @@
 import styles from './home.module.scss';
 import { FiLinkedin, FiGithub} from 'react-icons/fi';
-import {Sobre} from '../components/Sobre'
+
+
 
 export default function Home() {
   return (
     <>
+      
     <main className={styles.contentContainer}>
       <section className={styles.hero}>
         <p>Olá, eu sou</p>
+        
         <h1>Roberto Cabral</h1>
+      
         <p>
           Desenvolvedor Front-end.<br />
         </p>
@@ -36,7 +40,7 @@ export default function Home() {
 
 
     </main>
-    <Sobre />
+    
     </>
   )
 }
