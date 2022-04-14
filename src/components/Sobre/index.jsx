@@ -37,8 +37,8 @@ export function Sobre() {
       type="button" 
       className={styles.button1}>
           
-     <a href="https://www.linkedin.com/in/roberto-larbac/">
-     <FiDownloadCloud color="white" />
+     <a href="/curriculo.pdf" download>
+     <FiDownloadCloud color="white"  />
      Currículo
      </a>
     </button>
@@ -46,7 +46,7 @@ export function Sobre() {
     <button 
       type="button"
       >
-      <a href="https://github.com/betolarbac">
+      <a href="https://roberto_jr123@hotmail.com">
       <HiOutlineMail color="white" />
       E-mail
       </a>
