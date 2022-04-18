@@ -1,0 +1,51 @@
+.container {
+    margin-top: 14rem;
+    margin-left: 14rem;
+    
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+   
+}
+
+.container2 {
+    
+    display: flex;
+    align-items: center;
+
+    h4 {
+        font-size: 0.9rem;
+        font-weight: 500;
+        border-left: 3px solid #00D2DF;
+        padding: 11px;
+    }
+
+    h2{
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 2rem 10rem;
+    }
+
+    h5 {
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+}
+
+.container3 {
+    margin:0 27.5rem;
+
+    h5 {
+        font-size: 1rem;
+        font-weight: 500;
+        color: #00D2DF;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: 300;
+        color: #C4C4C4;
+    }
+}

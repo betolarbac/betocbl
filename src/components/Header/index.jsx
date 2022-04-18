@@ -17,7 +17,9 @@ export function Header() {
               <Link href="/sobre">
               <a>Sobre mim</a>
               </Link>
+              <Link href="/experiencia">
               <a>Experiência</a>
+              </Link>
               <a>Projetos</a>
           </nav>
           

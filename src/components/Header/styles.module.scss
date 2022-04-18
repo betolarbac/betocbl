@@ -35,6 +35,17 @@
         height: 5rem;
         line-height: 5rem;
         color: #C4C4C4;
+        
+      }
+
+      a:hover {
+        color: #f1f1f1;
+        transition: 0.7s;
+        
+      }
+      a:focus {
+        border-bottom: 3px solid #00D2DF;
+       
       }
     }
   
