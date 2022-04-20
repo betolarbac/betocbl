@@ -8,7 +8,7 @@ export function Sobre() {
   return (
     <main className={styles.contentContainer}>
 
-    <img src="/images/perfil.png" alt="looper"/>
+    <img src="/images/perfil.png" alt="perfil"/>
 
 
     <section className={styles.hero}>

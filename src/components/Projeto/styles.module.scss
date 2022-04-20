@@ -1,0 +1,87 @@
+.container {
+    margin-top: 5rem;
+    
+
+   
+    
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-left: 14rem;
+    }
+
+    img {
+        width: 400px;
+        height: 250px;
+       border-left: 5px solid #00D2DF;
+        
+       }
+
+     p {
+         margin: 1rem 0;
+         font-weight: 300;
+         font-size: 1rem;
+        color: #C4C4C4;
+     }
+
+     h3 {
+         font-size: 1rem;
+         font-weight: 500;
+         color: #00D2DF;
+     }
+
+     h2 {
+         font-size: 1.5rem;
+         margin-top: 1.5rem;
+         font-weight: 500;
+     }
+
+
+    button {
+        border-radius: 10px;
+        padding: 1.5rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        padding: 0.5rem 3rem;
+        color: white;
+        
+        border: solid 3px transparent;
+
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #9358F7, #10D7E2);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 1000px 1px black inset;
+
+      
+
+        svg {
+          width: 30px;
+          height: 25px;
+        }
+        
+        svg:first-child {
+          margin-right: 1rem; 
+        }
+      }
+
+      button:hover {
+        box-shadow: none;
+        transition: 0.8s;
+        
+      }
+   
+}
+
+.grid {
+    margin: 0 14rem;
+    display: grid;
+    column-gap: 50px;
+  grid-template-columns: auto auto auto ;
+}
+
+.container1 {
+    margin: 2rem 0;
+    
+}

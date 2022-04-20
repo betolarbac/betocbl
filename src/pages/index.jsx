@@ -1,4 +1,5 @@
 import styles from './home.module.scss';
+import Link from 'next/link';
 import { FiLinkedin, FiGithub} from 'react-icons/fi';
 
 
@@ -19,19 +20,23 @@ export default function Home() {
 
         <button
           type="button">
-          <a href="https://www.linkedin.com/in/roberto-larbac/">
+            <Link href="https://www.linkedin.com/in/roberto-larbac/">
+            <a>
             <FiLinkedin color="white" />
             LinkedIn
           </a>
+            </Link>
         </button>
 
         <button
           type="button"
           className={styles.button1}>
-          <a href="https://github.com/betolarbac">
+         <Link href="https://github.com/betolarbac">
+         <a>
             <FiGithub color="white" />
             GitHub
           </a>
+         </Link>
         </button>
 
       </section>
