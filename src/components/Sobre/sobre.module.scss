@@ -2,16 +2,19 @@
     
     max-width: 1280px;
     
-    margin: 0 auto;
+    
     padding: 0 2rem;
     
     margin-top: 5rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 100px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
 
     img {
+      margin-left: 13rem;
      width: 300px;
      height: 350px;
     border-left: 5px solid #00D2DF;
@@ -23,7 +26,7 @@
   
       h1 {
         font-size: 1.5rem;
-        line-height: 4rem;
+        line-height: 2rem;
         font-weight: 600;
         color: #FFFFFF;
         
@@ -31,7 +34,7 @@
 
       h2 {
         font-size: 1.2rem;
-        line-height: 4rem;
+        line-height: 2rem;
         font-weight: 500;
         color: #FFFFFF;
         
@@ -41,7 +44,7 @@
       p {
         font-weight: 300;
         font-size: 1rem;
-        line-height: 2.5rem;
+        line-height: 2rem;
         margin-top: 1rem;
         color: #C4C4C4;
         margin-bottom: 1rem;
@@ -63,7 +66,7 @@
         padding: 1.5rem;
         font-size: 1.3rem;
         font-weight: 600;
-        margin-top: 4rem;
+        margin-top: 2rem;
         margin-right: 1rem;
         padding: 0.5rem 3rem;
         color: white;
@@ -94,7 +97,7 @@
         border-radius: 10px;
         padding: 1.5rem;
         font-size: 1.3rem;
-        margin-top: 4rem;
+        margin-top: 2rem;
         margin-right: 1rem;
         padding: 0.5rem 3rem;
         color: white;

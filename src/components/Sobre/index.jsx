@@ -15,8 +15,8 @@ export function Sobre() {
       <h1>Sobre mim</h1>
       <h2>Alagoas, Brasil</h2>
       <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-      Praesent id egestas dui. Nullam finibus aliquam enim quis <br />
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      Praesent id egestas dui. Nullam finibus aliquam enim quis 
       faucibus. Aenean ac commodo dolor, nec bibendum velit.
       </p>
       <br />
