@@ -4,11 +4,12 @@
   }
   
   .headerContent {
-    max-width: 1200px;
+    max-width: 1280px;
     height: 5rem;
     margin: 0 auto;
     padding: 0 2rem;
     margin-left: 12rem;
+    margin-right: 6rem;
     display: flex;
     align-items: center;
 
@@ -16,7 +17,7 @@
         cursor: pointer;
         color: #00D2DF;
         font-weight: 500 ;
-        font-size: 2.188rem;
+        font-size: 2rem;
     }
   
     nav {
@@ -28,7 +29,7 @@
       a {
         
         font-weight: 500;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         display: inline-block;
         position: relative;
         padding: 0 1.5rem;

@@ -1,9 +1,9 @@
 .container {
-    margin-top: 14rem;
+    margin-top: 10rem;
     margin-left: 14rem;
     
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 600;
     }
    
@@ -22,9 +22,9 @@
     }
 
     h2{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 500;
-        margin: 2rem 10rem;
+        margin: 2rem 3rem;
     }
 
     h5 {
@@ -34,7 +34,8 @@
 }
 
 .container3 {
-    margin:0 27.5rem;
+    margin:0 2rem 0 20rem ;
+   
 
     h5 {
         font-size: 1rem;
@@ -44,6 +45,7 @@
     }
 
     p {
+        max-width: 500px;
         font-size: 1rem;
         font-weight: 300;
         color: #C4C4C4;

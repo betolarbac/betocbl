@@ -18,7 +18,7 @@ export function Projeto() {
                         CSS,
                         JavaScript,
                         Node.js,
-                        Nunjucks,
+                        
                         </h3>
 
                     <button 
@@ -79,13 +79,12 @@ export function Projeto() {
                 <img src="/images/foto4.png" alt="perfil"/>
                 <h2>Ignews</h2>
                 <p>Ig.news é uma plataforma que mostra as noticias sobre a l
-                    inguagem de programação React.JS, onde é oferecido um plano de 
-                    assinatura mensal de $9.90.</p>
+                    inguagem de programação React.JS.</p>
 
                     <h3>Next.Js,
                         NextAuth.js,
                         Sass,
-                        Stripe,
+                     
                         FaunaDB,
                         </h3>
 

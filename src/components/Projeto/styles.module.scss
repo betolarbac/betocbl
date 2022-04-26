@@ -5,14 +5,14 @@
    
     
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 600;
         margin-left: 14rem;
     }
 
     img {
-        width: 400px;
-        height: 250px;
+        width: 300px;
+        height: 200px;
        border-left: 5px solid #00D2DF;
         
        }
@@ -31,40 +31,41 @@
      }
 
      h2 {
-         font-size: 1.5rem;
+         font-size: 1.3rem;
          margin-top: 1.5rem;
          font-weight: 500;
      }
 
 
-    button {
-        border-radius: 10px;
-        padding: 1.5rem;
-        font-size: 1.3rem;
-        font-weight: 600;
-        margin-top: 1rem;
-        margin-right: 1rem;
-        padding: 0.5rem 3rem;
-        color: white;
-        
-        border: solid 3px transparent;
-
-        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #9358F7, #10D7E2);
-        background-origin: border-box;
-        background-clip: content-box, border-box;
-        box-shadow: 2px 1000px 1px black inset;
-
+     button {
+      border-radius: 10px;
+      padding: 1.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-top: 1rem;
+      margin-right: 1rem;
+      padding: 0.5rem 2rem;
+      color: white;
       
+      border: solid 3px transparent;
 
-        svg {
-          width: 30px;
-          height: 25px;
-        }
-        
-        svg:first-child {
-          margin-right: 1rem; 
-        }
+      background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #9358F7, #10D7E2);
+      background-origin: border-box;
+      background-clip: content-box, border-box;
+      box-shadow: 2px 1000px 1px black inset;
+
+    
+
+      svg {
+        width: 20px;
+        height: 25px;
+        vertical-align: sub;
       }
+      
+      svg:first-child {
+        margin-right: 1rem; 
+      }
+    }
 
       button:hover {
         box-shadow: none;
@@ -79,6 +80,14 @@
     display: grid;
     column-gap: 50px;
   grid-template-columns: auto auto auto ;
+}
+
+@media (max-width: 1168px) {
+
+  .grid {
+    grid-template-columns: auto auto  ;
+  }
+
 }
 
 .container1 {

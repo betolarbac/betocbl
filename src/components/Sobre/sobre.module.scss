@@ -14,27 +14,26 @@
 
 
     img {
-      margin-left: 13rem;
-     width: 300px;
-     height: 350px;
+      margin-left: 12rem;
+     width: 200px;
+     height: 250px;
     border-left: 5px solid #00D2DF;
      
     }
 
     .hero {
-      margin-bottom: 1rem;
+      margin-left: 7rem;
+      margin-top: 1rem;
   
       h1 {
-        font-size: 1.5rem;
-        line-height: 2rem;
+        font-size: 1.3rem;
         font-weight: 600;
         color: #FFFFFF;
         
       }
 
       h2 {
-        font-size: 1.2rem;
-        line-height: 2rem;
+        font-size: 1.1rem;
         font-weight: 500;
         color: #FFFFFF;
         
@@ -44,7 +43,7 @@
       p {
         font-weight: 300;
         font-size: 1rem;
-        line-height: 2rem;
+        line-height: 1.3rem;
         margin-top: 1rem;
         color: #C4C4C4;
         margin-bottom: 1rem;
@@ -55,7 +54,7 @@
       a {
         
         svg {
-            width: 28px;
+            width: 20px;
             height: 30px;
             margin-right: 1.5rem;
           }
@@ -64,11 +63,11 @@
       button {
         border-radius: 10px;
         padding: 1.5rem;
-        font-size: 1.3rem;
+        font-size: 1rem;
         font-weight: 600;
-        margin-top: 2rem;
+        margin-top: 1rem;
         margin-right: 1rem;
-        padding: 0.5rem 3rem;
+        padding: 0.5rem 2rem;
         color: white;
         
         border: solid 3px transparent;
@@ -81,8 +80,9 @@
       
 
         svg {
-          width: 30px;
+          width: 20px;
           height: 25px;
+          vertical-align: sub;
         }
         
         svg:first-child {
@@ -96,10 +96,10 @@
       .button1 {
         border-radius: 10px;
         padding: 1.5rem;
-        font-size: 1.3rem;
-        margin-top: 2rem;
+        font-size: 1rem;
+        margin-top: 1rem;
         margin-right: 1rem;
-        padding: 0.5rem 3rem;
+        padding: 0.5rem 2rem;
         color: white;
         box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
         border: solid 3px transparent;
@@ -108,11 +108,10 @@
         background-clip: content-box, border-box;
         box-shadow: 2px 1000px 1px black inset;
         svg {
-          width: 30px;
+          width: 20px;
           height: 25px;
         }
       }
-
       button:hover {
         box-shadow: none;
         transition: 0.8s;

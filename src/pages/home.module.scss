@@ -23,7 +23,7 @@
       margin-left: 12rem;
   
       h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         line-height: 4rem;
         font-weight: 600;
         color: #00D2DF;
@@ -33,7 +33,7 @@
     
       p {
         font-weight: 600;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         line-height: 2.5rem;
         margin-top: 1rem;
         
@@ -43,11 +43,11 @@
       button {
         border-radius: 10px;
         padding: 1.5rem;
-        font-size: 1.3rem;
+        font-size: 1rem;
         font-weight: 600;
-        margin-top: 4rem;
+        margin-top: 2rem;
         margin-right: 1rem;
-        padding: 0.5rem 3rem;
+        padding: 0.5rem 2rem;
         color: white;
         
         border: solid 3px transparent;
@@ -60,8 +60,9 @@
       
 
         svg {
-          width: 30px;
+          width: 20px;
           height: 25px;
+          vertical-align: sub;
         }
         
         svg:first-child {
@@ -75,10 +76,10 @@
       .button1 {
         border-radius: 10px;
         padding: 1.5rem;
-        font-size: 1.3rem;
-        margin-top: 4rem;
+        font-size: 1rem;
+        margin-top: 2rem;
         margin-right: 1rem;
-        padding: 0.5rem 3rem;
+        padding: 0.5rem 2rem;
         color: white;
         box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
         border: solid 3px transparent;
@@ -87,7 +88,7 @@
         background-clip: content-box, border-box;
         box-shadow: 2px 1000px 1px black inset;
         svg {
-          width: 30px;
+          width: 20px;
           height: 25px;
         }
       }
