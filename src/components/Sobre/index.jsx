@@ -15,9 +15,10 @@ export function Sobre() {
       <h1>Sobre mim</h1>
       <h2>Alagoas, Brasil</h2>
       <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-      Praesent id egestas dui. Nullam finibus aliquam enim quis 
-      faucibus. Aenean ac commodo dolor, nec bibendum velit.
+      Desenvolvedor de Software, com experiência de atuação em grandes projetos. me reconheço como entusiasta em novas tecnologias do mercado, com aprendizado adquirido dia após dia
+      <br/>
+      Possuo foco em desenvolvimento com Javascript, TypeScript, React, NodeJS dentre outras tecnologias que uso para criar aplicações web de alto nível e valor.
+
       </p>
       <br />
       <a href="">

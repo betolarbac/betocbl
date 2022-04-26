@@ -13,10 +13,7 @@ export function Experiencia() {
 
             <div className={styles.container3}>
              <h5>Amaré Publicidade e Marketing</h5>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
-                 elit. Quisque eu purus risus. Ut rutrum sollicitudin 
-                 purus in accumsan. Proin at mattis metus. Nullam sit 
-                 amet mauris condimentum, volutpat augue in, mattis urna.</p>
+             <p>Desenvolvimento de paginas web usando Html, css, Javascript e wordpress como PJ </p>
             </div>
         </div>
     )

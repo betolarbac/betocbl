@@ -24,7 +24,7 @@ export function Projeto() {
                     <button 
                     type="button"
                     >
-                    <a href="https://github.com/betolarbac/Proffy">
+                    <a href="https://github.com/betolarbac/Proffy" target="_blank">
                     <FiLink color="#ffff" />
                     Visualizar
                     </a>
@@ -45,7 +45,7 @@ export function Projeto() {
                     <button 
                     type="button"
                     >
-                    <a href="https://betolarbac.github.io/cr.finance/">
+                    <a href="https://betolarbac.github.io/cr.finance/" target="_blank">
                     <FiLink color="#ffff" />
                     Visualizar
                     </a>
@@ -67,7 +67,7 @@ export function Projeto() {
                     <button 
                     type="button"
                     >
-                    <a href="https://github.com/betolarbac/upfi">
+                    <a href="https://github.com/betolarbac/upfi" target="_blank">
                     <FiLink color="#ffff" />
                     Visualizar
                     </a>
@@ -91,7 +91,7 @@ export function Projeto() {
                     <button 
                     type="button"
                     >
-                    <a href="https://roberto_jr123@hotmail.com">
+                    <a href="https://github.com/betolarbac/ignews" target="_blank">
                     <FiLink color="#ffff" />
                     Visualizar
                     </a>
@@ -112,13 +112,94 @@ export function Projeto() {
                     <button 
                     type="button"
                     >
-                    <a href="https://github.com/betolarbac/betocast">
+                    <a href="https://github.com/betolarbac/betocast" target="_blank">
                     <FiLink color="#ffff" />
                     Visualizar
                     </a>
                     </button>
 
             </div>
+
+            <div className={styles.container1}>
+                <img src="/images/foto6.jpeg" alt="perfil"/>
+                <h2>Betoflix</h2>
+                <p>clone da plataforma da netflix, feito para treinar css e js   </p>
+
+                    <h3>html
+                        css,
+                        javascript</h3>
+
+                    <button 
+                    type="button"
+                    >
+                    <a href="https://github.com/betolarbac/betoflix" target="_blank">
+                    <FiLink color="#ffff" />
+                    Visualizar
+                    </a>
+                    </button>
+
+            </div>
+
+            <div className={styles.container1}>
+                <img src="/images/foto7.jpeg" alt="perfil"/>
+                <h2>Cep</h2>
+                <p>teste de api de cep, feito para treinar consumo de apis com javascript</p>
+
+                    <h3>Html,
+                        Css,
+                        Javascript</h3>
+
+                    <button 
+                    type="button"
+                    >
+                    <a href="https://github.com/betolarbac/betoflix" target="_blank">
+                    <FiLink color="#ffff" />
+                    Visualizar
+                    </a>
+                    </button>
+
+            </div>
+
+            <div className={styles.container1}>
+                <img src="/images/foto8.jpeg" alt="perfil"/>
+                <h2>Codar</h2>
+                <p>site de agencia construído para um desafio, feito para treinar e aprender bootstrap</p>
+
+                    <h3>Html,
+                        BootStrap,
+                        Javascript</h3>
+
+                    <button 
+                    type="button"
+                    >
+                    <a href="https://github.com/betolarbac/Codar." target="_blank">
+                    <FiLink color="#ffff" />
+                    Visualizar
+                    </a>
+                    </button>
+
+            </div>
+
+            <div className={styles.container1}>
+                <img src="/images/foto9.jpeg" alt="perfil"/>
+                <h2>Betocard</h2>
+                <p>plataforma construída para consumir api da marvel, mostrando os personagens, Hqs e uma breve historia </p>
+
+                    <h3>Html,
+                        Sass,
+                        Javascript</h3>
+
+                    <button 
+                    type="button"
+                    >
+                    <a href="https://github.com/betolarbac/Codar." target="_blank">
+                    <FiLink color="#ffff" />
+                    Visualizar
+                    </a>
+                    </button>
+
+            </div>
+            
             </div>
 
             
