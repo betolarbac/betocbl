@@ -24,7 +24,7 @@ export function Projeto() {
                     <button 
                     type="button"
                     >
-                    <a href="https://github.com/betolarbac/Proffy" target="_blank">
+                    <a href="https://github.com/betolarbac/Proffy" target="_blank" rel="noreferrer">
                     <FiLink color="#ffff" />
                     Visualizar
                     </a>
@@ -45,7 +45,7 @@ export function Projeto() {
                     <button 
                     type="button"
                     >
-                    <a href="https://betolarbac.github.io/cr.finance/" target="_blank">
+                    <a href="https://betolarbac.github.io/cr.finance/" target="_blank" rel="noreferrer">
                     <FiLink color="#ffff" />
                     Visualizar
                     </a>
@@ -67,7 +67,7 @@ export function Projeto() {
                     <button 
                     type="button"
                     >
-                    <a href="https://github.com/betolarbac/upfi" target="_blank">
+                    <a href="https://github.com/betolarbac/upfi" target="_blank" rel="noreferrer">
                     <FiLink color="#ffff" />
                     Visualizar
                     </a>
@@ -91,7 +91,7 @@ export function Projeto() {
                     <button 
                     type="button"
                     >
-                    <a href="https://github.com/betolarbac/ignews" target="_blank">
+                    <a href="https://github.com/betolarbac/ignews" target="_blank" rel="noreferrer">
                     <FiLink color="#ffff" />
                     Visualizar
                     </a>
@@ -112,7 +112,7 @@ export function Projeto() {
                     <button 
                     type="button"
                     >
-                    <a href="https://github.com/betolarbac/betocast" target="_blank">
+                    <a href="https://github.com/betolarbac/betocast" target="_blank" rel="noreferrer">
                     <FiLink color="#ffff" />
                     Visualizar
                     </a>
@@ -132,7 +132,7 @@ export function Projeto() {
                     <button 
                     type="button"
                     >
-                    <a href="https://github.com/betolarbac/betoflix" target="_blank">
+                    <a href="https://github.com/betolarbac/betoflix" target="_blank" rel="noreferrer">
                     <FiLink color="#ffff" />
                     Visualizar
                     </a>
@@ -152,7 +152,7 @@ export function Projeto() {
                     <button 
                     type="button"
                     >
-                    <a href="https://github.com/betolarbac/betoflix" target="_blank">
+                    <a href="https://github.com/betolarbac/betoflix" target="_blank" rel="noreferrer">
                     <FiLink color="#ffff" />
                     Visualizar
                     </a>
@@ -172,7 +172,7 @@ export function Projeto() {
                     <button 
                     type="button"
                     >
-                    <a href="https://github.com/betolarbac/Codar." target="_blank">
+                    <a href="https://github.com/betolarbac/Codar." target="_blank" rel="noreferrer">
                     <FiLink color="#ffff" />
                     Visualizar
                     </a>
@@ -192,7 +192,7 @@ export function Projeto() {
                     <button 
                     type="button"
                     >
-                    <a href="https://github.com/betolarbac/Codar." target="_blank">
+                    <a href="https://github.com/betolarbac/Codar." target="_blank" rel="noreferrer">
                     <FiLink color="#ffff" />
                     Visualizar
                     </a>
