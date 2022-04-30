@@ -1,5 +1,6 @@
 import styles from './styles.module.scss';
 import { FiLink} from 'react-icons/fi';
+import { motion} from "framer-motion"
 export function Projeto() {
     return (
         <div className={styles.container}>
@@ -7,7 +8,11 @@ export function Projeto() {
 
             <div className={styles.grid}>
 
-            <div className={styles.container1}>
+            <motion.div className={styles.container1}
+            initial={{ opacity:0}}
+            animate={{opacity:1}}
+            transition={{ delay: 0.2, duration: 0.8 }}
+            >
                 <img src="/images/foto1.png" alt="perfil"/>
                 <h2>Proffy</h2>
                 <p>O projeto é uma aplicação que possa ligar quem deseja 
@@ -30,9 +35,13 @@ export function Projeto() {
                     </a>
                     </button>
 
-            </div>
+            </motion.div>
 
-            <div className={styles.container1}>
+            <motion.div className={styles.container1}
+            initial={{ opacity:0}}
+            animate={{opacity:1}}
+            transition={{ delay: 0.2, duration: 0.8 }}
+            >
                 <img src="/images/foto2.png" alt="perfil"/>
                 <h2>cr.finance</h2>
                 <p>O dev.finances é uma aplicação de controle financeiro, 
@@ -51,9 +60,13 @@ export function Projeto() {
                     </a>
                     </button>
 
-            </div>
+            </motion.div>
 
-            <div className={styles.container1}>
+            <motion.div className={styles.container1}
+            initial={{ opacity:0}}
+            animate={{opacity:1}}
+            transition={{ delay: 0.2, duration: 0.8 }}
+            >
                 <img src="/images/foto3.png" alt="perfil"/>
                 <h2>Upfi</h2>
                 <p>Site de fotos de pets. Neste projeto foi FaunaDB, um banco não relacional, para persistência de dados e ImgBB para upload de imagens na nuvem.</p>
@@ -73,9 +86,13 @@ export function Projeto() {
                     </a>
                     </button>
 
-            </div>
+            </motion.div>
 
-            <div className={styles.container1}>
+            <motion.div className={styles.container1}
+            initial={{ opacity:0}}
+            animate={{opacity:1}}
+            transition={{ delay: 0.2, duration: 0.8 }}
+            >
                 <img src="/images/foto4.png" alt="perfil"/>
                 <h2>Ignews</h2>
                 <p>Ig.news é uma plataforma que mostra as noticias sobre a l
@@ -97,9 +114,13 @@ export function Projeto() {
                     </a>
                     </button>
 
-            </div>
+            </motion.div>
 
-            <div className={styles.container1}>
+            <motion.div className={styles.container1}
+            initial={{ opacity:0}}
+            animate={{opacity:1}}
+            transition={{ delay: 0.2, duration: 0.8 }}
+            >
                 <img src="/images/foto5.png" alt="perfil"/>
                 <h2>Betocast</h2>
                 <p>é plataforma de podcast e musica desenvolvido para principal intenção de testar novas ferramentas
@@ -118,9 +139,13 @@ export function Projeto() {
                     </a>
                     </button>
 
-            </div>
+            </motion.div>
 
-            <div className={styles.container1}>
+            <motion.div className={styles.container1}
+            initial={{ opacity:0}}
+            animate={{opacity:1}}
+            transition={{ delay: 0.2, duration: 0.8 }}
+            >
                 <img src="/images/foto6.jpeg" alt="perfil"/>
                 <h2>Betoflix</h2>
                 <p>clone da plataforma da netflix, feito para treinar css e js   </p>
@@ -138,9 +163,13 @@ export function Projeto() {
                     </a>
                     </button>
 
-            </div>
+            </motion.div>
 
-            <div className={styles.container1}>
+            <motion.div className={styles.container1}
+            initial={{ opacity:0}}
+            animate={{opacity:1}}
+            transition={{ delay: 0.2, duration: 0.8 }}
+            >
                 <img src="/images/foto7.jpeg" alt="perfil"/>
                 <h2>Cep</h2>
                 <p>teste de api de cep, feito para treinar consumo de apis com javascript</p>
@@ -158,9 +187,13 @@ export function Projeto() {
                     </a>
                     </button>
 
-            </div>
+            </motion.div>
 
-            <div className={styles.container1}>
+            <motion.div className={styles.container1}
+            initial={{ opacity:0}}
+            animate={{opacity:1}}
+            transition={{ delay: 0.2, duration: 0.8 }}
+            >
                 <img src="/images/foto8.jpeg" alt="perfil"/>
                 <h2>Codar</h2>
                 <p>site de agencia construído para um desafio, feito para treinar e aprender bootstrap</p>
@@ -178,9 +211,13 @@ export function Projeto() {
                     </a>
                     </button>
 
-            </div>
+            </motion.div>
 
-            <div className={styles.container1}>
+            <motion.div className={styles.container1}
+            initial={{ opacity:0}}
+            animate={{opacity:1}}
+            transition={{ delay: 0.2, duration: 0.8 }}
+            >
                 <img src="/images/foto9.jpeg" alt="perfil"/>
                 <h2>Betocard</h2>
                 <p>plataforma construída para consumir api da marvel, mostrando os personagens, Hqs e uma breve historia </p>
@@ -198,7 +235,7 @@ export function Projeto() {
                     </a>
                     </button>
 
-            </div>
+            </motion.div>
             
             </div>
 

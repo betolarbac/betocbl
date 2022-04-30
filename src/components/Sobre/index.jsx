@@ -2,11 +2,15 @@ import styles from './sobre.module.scss';
 import { FiDownloadCloud, FiTwitter} from 'react-icons/fi';
 import { HiOutlineMail} from 'react-icons/hi';
 import { FaInstagram, FaWhatsapp} from 'react-icons/fa';
-
+import { motion} from "framer-motion"
 
 export function Sobre() {
   return (
-    <main className={styles.contentContainer}>
+    <motion.main className={styles.contentContainer}
+    initial={{ opacity:0}}
+        animate={{opacity:1}}
+        transition={{ delay: 0.2, duration: 0.8 }}
+    >
 
     <img src="/images/perfil.png" alt="perfil"/>
 
@@ -58,6 +62,6 @@ export function Sobre() {
     
 
   
-  </main>
+  </motion.main>
   )
 }

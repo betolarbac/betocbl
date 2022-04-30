@@ -1,7 +1,7 @@
 import styles from './home.module.scss';
 import Link from 'next/link';
 import { FiLinkedin, FiGithub} from 'react-icons/fi';
-
+import { motion } from "framer-motion"
 
 
 export default function Home() {
@@ -9,7 +9,11 @@ export default function Home() {
     <>
       
     <main className={styles.contentContainer}>
-      <section className={styles.hero}>
+      <motion.section className={styles.hero}
+        initial={{ opacity:0}}
+        animate={{opacity:1}}
+        transition={{ delay: 0.2, duration: 0.8 }}
+      >
         <p>Olá, eu sou</p>
         
         <h1>Roberto Cabral</h1>
@@ -39,7 +43,7 @@ export default function Home() {
          </Link>
         </button>
 
-      </section>
+      </motion.section>
 
       <img src="/images/Looper.svg" alt="looper" />
 
