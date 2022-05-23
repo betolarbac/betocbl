@@ -97,3 +97,50 @@
     
 }
 
+@media only screen and (max-width: 600px) {
+  .container {
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-left: 2rem;
+  }
+
+  button {
+    border-radius: 10px;
+    padding: 1.5rem ;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 0.5rem 2rem;
+    color: white;
+    
+    border: solid 3px transparent;
+
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #9358F7, #10D7E2);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px black inset;
+
+  
+
+    svg {
+      width: 20px;
+      height: 25px;
+      vertical-align: sub;
+    }
+    
+    svg:first-child {
+      margin-right: 1rem; 
+    }
+  }
+  }
+
+  
+  .grid {
+    grid-template-columns: auto ;
+    margin: 0 2rem;
+  }
+
+
+}

@@ -117,9 +117,79 @@
         transition: 0.8s;
         
       }
+
+      
    
     }
+    @media only screen and (max-width: 600px) {
+
+     
+      .hero {
+        margin-left: 1rem;
+        margin-top: 1rem;
+
+
+        h1 {
+          font-size: 1.3rem;
+          font-weight: 600;
+          color: #FFFFFF;
+          
+        }
+  
+        h2 {
+          font-size: 1.1rem;
+          font-weight: 500;
+          color: #FFFFFF;
+          
+        }
+      
+      
+        p {
+         
+          font-weight: 400;
+          font-size: 1rem;
+          line-height: 1.3rem;
+          margin-top: 1rem;
+          color: #C4C4C4;
+          margin-bottom: 1rem;
+          
+      
+        }
+
+           button {
+          margin-right: 0.5rem;
+          
+        }
+    
+        .button1 {
+          margin-right: 0.5rem;
+         
+        }
+
+     
+      }
+  
+  
+    }
+
+    
+
+  
   }
+
   
   
+  @media only screen and (max-width: 600px) {
+
+    .contentContainer {
+      
+      img {
+        display: none;
+      }
+
+      
+    }
+    
+
+  }
 
