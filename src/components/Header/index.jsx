@@ -13,6 +13,7 @@ export function Header() {
             transition={{delay: 0.2}}
           >Betocbl</motion.h1>
           </Link >
+
           <nav>
 
           <Link href="/">
@@ -20,7 +21,7 @@ export function Header() {
               </Link >
 
               <Link href="/sobre">
-              <a>Sobre mim</a>
+              <a>Sobre</a>
               </Link>
 
               <Link href="/experiencia">

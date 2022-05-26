@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }) {
         <title>Betocbl</title>
       </Head>
     <Header />
+    
     <Component {...pageProps} />
     </>
   );

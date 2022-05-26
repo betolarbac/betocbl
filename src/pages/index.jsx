@@ -2,7 +2,9 @@ import styles from './home.module.scss';
 import Link from 'next/link';
 import { FiLinkedin, FiGithub} from 'react-icons/fi';
 import { motion } from "framer-motion"
-
+import {Sobre} from '../components/Sobre'
+import { Experiencia } from "../components/Experiencia";
+import { Projeto } from "../components/Projeto";
 
 export default function Home() {
   return (
@@ -49,6 +51,7 @@ export default function Home() {
 
 
     </main>
+    
     
     </>
   )
