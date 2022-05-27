@@ -181,7 +181,7 @@ export function Projeto() {
                     <button 
                     type="button"
                     >
-                    <a href="https://github.com/betolarbac/betoflix" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/betolarbac/Api" target="_blank" rel="noreferrer">
                     <FiLink color="#ffff" />
                     Visualizar
                     </a>
