@@ -1,247 +1,209 @@
-import styles from './styles.module.scss';
-import { FiLink} from 'react-icons/fi';
-import { motion} from "framer-motion"
+import styles from "./styles.module.scss";
+import { FiLink } from "react-icons/fi";
+import { motion } from "framer-motion";
 export function Projeto() {
-    return (
-        <div className={styles.container}>
-            <h1>PROJETOS</h1>
+  return (
+    <div className={styles.container}>
+      <h1>PROJETOS</h1>
 
-            <div className={styles.grid}>
+      <div className={styles.grid}>
+        <motion.div
+          className={styles.container1}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.8 }}
+        >
+          <img
+            src="https://live.staticflickr.com/65535/52837729695_f6fb3ce57e_h.jpg"
+            alt="perfil"
+          />
+          <h2>Dashgo</h2>
+          <p>
+            dashboard de gerenciamento de dados, por exemplo de inscrições na
+            plataforma, gerenciamento de usuários e etc.{" "}
+          </p>
 
-            <motion.div className={styles.container1}
-            initial={{ opacity:0}}
-            animate={{opacity:1}}
-            transition={{ delay: 0.2, duration: 0.8 }}
+          <h3>React, Next.js TypeScript, Chakra ui,</h3>
+
+          <button type="button">
+            <a
+              href="https://github.com/betolarbac/dashgo"
+              target="_blank"
+              rel="noreferrer"
             >
-                <img src="/images/foto1.png" alt="perfil"/>
-                <h2>Proffy</h2>
-                <p>O projeto é uma aplicação que possa ligar quem deseja 
-                    aprender, com quer ensinar. É possível encontrar alunos para o que 
-                    você leciona,  </p>
+              <FiLink color="#ffff" />
+              Visualizar
+            </a>
+          </button>
+        </motion.div>
 
-                    <h3>HTML,
-                        CSS,
-                        JavaScript,
-                        Node.js,
-                        
-                        </h3>
+        <motion.div
+          className={styles.container1}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.8 }}
+        >
+          <img src="https://raw.githubusercontent.com/IgorThierry/nlw-return-impulse/main/.github/Capa.png" alt="perfil" />
+          <h2>Feedback Widget</h2>
+          <p>
+          Um Component Widget para feedback que pode ser utilizado em qualquer site.
+          </p>
 
-                    <button 
-                    type="button"
-                    >
-                    <a href="https://github.com/betolarbac/Proffy" target="_blank" rel="noreferrer">
-                    <FiLink color="#ffff" />
-                    Visualizar
-                    </a>
-                    </button>
+          <h3>Vite,
+TailWindCSS,
+ReactJS,
+ESLint + Prettier + EditorConfig;</h3>
 
-            </motion.div>
-
-            <motion.div className={styles.container1}
-            initial={{ opacity:0}}
-            animate={{opacity:1}}
-            transition={{ delay: 0.2, duration: 0.8 }}
+          <button type="button">
+            <a
+              href="https://github.com/betolarbac/widget"
+              target="_blank"
+              rel="noreferrer"
             >
-                <img src="/images/foto2.png" alt="perfil"/>
-                <h2>cr.finance</h2>
-                <p>O dev.finances é uma aplicação de controle financeiro, 
-                    onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰</p>
+              <FiLink color="#ffff" />
+              Visualizar
+            </a>
+          </button>
+        </motion.div>
 
-                    <h3>HTML,
-                        CSS,
-                        JavaScript</h3>
+        <motion.div
+          className={styles.container1}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.8 }}
+        >
+          <img src="https://live.staticflickr.com/65535/52837599754_ef015c1e48_h.jpg" alt="perfil" />
+          <h2>Ignews</h2>
+          <p>
+            Ig.news é uma plataforma que mostra as noticias sobre a l inguagem
+            de programação React.JS.
+          </p>
 
-                    <button 
-                    type="button"
-                    >
-                    <a href="https://betolarbac.github.io/cr.finance/" target="_blank" rel="noreferrer">
-                    <FiLink color="#ffff" />
-                    Visualizar
-                    </a>
-                    </button>
+          <h3>Next.Js, NextAuth.js, Sass, FaunaDB,</h3>
 
-            </motion.div>
-
-            <motion.div className={styles.container1}
-            initial={{ opacity:0}}
-            animate={{opacity:1}}
-            transition={{ delay: 0.2, duration: 0.8 }}
+          <button type="button">
+            <a
+              href="https://github.com/betolarbac/ignews"
+              target="_blank"
+              rel="noreferrer"
             >
-                <img src="/images/foto3.png" alt="perfil"/>
-                <h2>Upfi</h2>
-                <p>Site de fotos de pets. Neste projeto foi FaunaDB, um banco não relacional, para persistência de dados e ImgBB para upload de imagens na nuvem.</p>
+              <FiLink color="#ffff" />
+              Visualizar
+            </a>
+          </button>
+        </motion.div>
 
-                    <h3>Next.js,
-                        TypeScript,
-                        FaunaDB,
-                        Chakra,
-                        </h3>
+        <motion.div
+          className={styles.container1}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.8 }}
+        >
+          <img
+            src="https://raw.githubusercontent.com/betolarbac/ignite-reactjs-spacetraveling/master/.github/spacetraveling.gif"
+            alt="perfil"
+          />
+          <h2>Spacetraveling</h2>
+          <p>
+            um pequeno blog com conteúdo dinâmico usando cms para gerenciamento
+          </p>
 
-                    <button 
-                    type="button"
-                    >
-                    <a href="https://github.com/betolarbac/upfi" target="_blank" rel="noreferrer">
-                    <FiLink color="#ffff" />
-                    Visualizar
-                    </a>
-                    </button>
+          <h3>NextJS, Prismic CMS, React Icons, date-fns</h3>
 
-            </motion.div>
-
-            <motion.div className={styles.container1}
-            initial={{ opacity:0}}
-            animate={{opacity:1}}
-            transition={{ delay: 0.2, duration: 0.8 }}
+          <button type="button">
+            <a
+              href="https://github.com/betolarbac/ignite-reactjs-spacetraveling"
+              target="_blank"
+              rel="noreferrer"
             >
-                <img src="/images/foto4.png" alt="perfil"/>
-                <h2>Ignews</h2>
-                <p>Ig.news é uma plataforma que mostra as noticias sobre a l
-                    inguagem de programação React.JS.</p>
+              <FiLink color="#ffff" />
+              Visualizar
+            </a>
+          </button>
+        </motion.div>
 
-                    <h3>Next.Js,
-                        NextAuth.js,
-                        Sass,
-                     
-                        FaunaDB,
-                        </h3>
+        <motion.div
+          className={styles.container1}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.8 }}
+        >
+          <img src="https://camo.githubusercontent.com/529586375933c5299e4b110530cdce4e641e38c5030441256ba3a4e9caf654e8/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f59464e503467446e6c68494a7779423231462f67697068792e676966" alt="perfil" />
+          <h2>To-do List</h2>
+          <p>
+            Essa é aplicação onde o seu principal objetivo é uma pequena aplicação de atividades a fazer, para treinar um pouco mais sobre manipulação do estado no React.
+          </p>
 
-                    <button 
-                    type="button"
-                    >
-                    <a href="https://github.com/betolarbac/ignews" target="_blank" rel="noreferrer">
-                    <FiLink color="#ffff" />
-                    Visualizar
-                    </a>
-                    </button>
+          <h3>Next.js, TypeScript</h3>
 
-            </motion.div>
-
-            <motion.div className={styles.container1}
-            initial={{ opacity:0}}
-            animate={{opacity:1}}
-            transition={{ delay: 0.2, duration: 0.8 }}
+          <button type="button">
+            <a
+              href="https://github.com/betolarbac/to-do-list"
+              target="_blank"
+              rel="noreferrer"
             >
-                <img src="/images/foto5.png" alt="perfil"/>
-                <h2>Betocast</h2>
-                <p>é plataforma de podcast e musica desenvolvido para principal intenção de testar novas ferramentas
-                    como audio e reprodução no next.js.  </p>
+              <FiLink color="#ffff" />
+              Visualizar
+            </a>
+          </button>
+        </motion.div>
 
-                    <h3>ReactJS,
-                        Typescript,
-                        Next.js</h3>
+        <motion.div
+          className={styles.container1}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.8 }}
+        >
+          <img src="https://live.staticflickr.com/65535/52837415836_a79dce8c49_h.jpg" alt="perfil" />
+          <h2>Betocast</h2>
+          <p>
+            é plataforma de podcast e musica desenvolvido para principal
+            intenção de testar novas ferramentas como audio e reprodução no
+            next.js.{" "}
+          </p>
 
-                    <button 
-                    type="button"
-                    >
-                    <a href="https://github.com/betolarbac/betocast" target="_blank" rel="noreferrer">
-                    <FiLink color="#ffff" />
-                    Visualizar
-                    </a>
-                    </button>
+          <h3>ReactJS, Typescript, Next.js</h3>
 
-            </motion.div>
-
-            <motion.div className={styles.container1}
-            initial={{ opacity:0}}
-            animate={{opacity:1}}
-            transition={{ delay: 0.2, duration: 0.8 }}
+          <button type="button">
+            <a
+              href="https://github.com/betolarbac/betocast"
+              target="_blank"
+              rel="noreferrer"
             >
-                <img src="/images/foto6.jpeg" alt="perfil"/>
-                <h2>Betoflix</h2>
-                <p>clone da plataforma da netflix, feito para treinar css e js   </p>
+              <FiLink color="#ffff" />
+              Visualizar
+            </a>
+          </button>
+        </motion.div>
 
-                    <h3>html
-                        css,
-                        javascript</h3>
+        <motion.div
+          className={styles.container1}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.8 }}
+        >
+          <img src="https://live.staticflickr.com/65535/52837415826_c01bbd80cf_h.jpg" alt="perfil" />
+          <h2>Dt-money</h2>
+          <p>O Dt-money é uma aplicação de controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰</p>
 
-                    <button 
-                    type="button"
-                    >
-                    <a href="https://github.com/betolarbac/betoflix" target="_blank" rel="noreferrer">
-                    <FiLink color="#ffff" />
-                    Visualizar
-                    </a>
-                    </button>
+          <h3>Typescript
+React,
+Styled Components,
+MirageJS</h3>
 
-            </motion.div>
-
-            <motion.div className={styles.container1}
-            initial={{ opacity:0}}
-            animate={{opacity:1}}
-            transition={{ delay: 0.2, duration: 0.8 }}
+          <button type="button">
+            <a
+              href="https://github.com/betolarbac/betoflix"
+              target="_blank"
+              rel="noreferrer"
             >
-                <img src="/images/foto7.jpeg" alt="perfil"/>
-                <h2>Cep</h2>
-                <p>teste de api de cep, feito para treinar consumo de apis com javascript</p>
+              <FiLink color="#ffff" />
+              Visualizar
+            </a>
+          </button>
+        </motion.div>
 
-                    <h3>Html,
-                        Css,
-                        Javascript</h3>
-
-                    <button 
-                    type="button"
-                    >
-                    <a href="https://github.com/betolarbac/Api" target="_blank" rel="noreferrer">
-                    <FiLink color="#ffff" />
-                    Visualizar
-                    </a>
-                    </button>
-
-            </motion.div>
-
-            <motion.div className={styles.container1}
-            initial={{ opacity:0}}
-            animate={{opacity:1}}
-            transition={{ delay: 0.2, duration: 0.8 }}
-            >
-                <img src="/images/foto8.jpeg" alt="perfil"/>
-                <h2>Codar</h2>
-                <p>site de agencia construído para um desafio, feito para treinar e aprender bootstrap</p>
-
-                    <h3>Html,
-                        BootStrap,
-                        Javascript</h3>
-
-                    <button 
-                    type="button"
-                    >
-                    <a href="https://github.com/betolarbac/Codar." target="_blank" rel="noreferrer">
-                    <FiLink color="#ffff" />
-                    Visualizar
-                    </a>
-                    </button>
-
-            </motion.div>
-
-            <motion.div className={styles.container1}
-            initial={{ opacity:0}}
-            animate={{opacity:1}}
-            transition={{ delay: 0.2, duration: 0.8 }}
-            >
-                <img src="/images/foto9.jpeg" alt="perfil"/>
-                <h2>Betocard</h2>
-                <p>plataforma construída para consumir api da marvel, mostrando os personagens, Hqs e uma breve historia </p>
-
-                    <h3>Html,
-                        Sass,
-                        Javascript</h3>
-
-                    <button 
-                    type="button"
-                    >
-                    <a href="https://github.com/betolarbac/Codar." target="_blank" rel="noreferrer">
-                    <FiLink color="#ffff" />
-                    Visualizar
-                    </a>
-                    </button>
-
-            </motion.div>
-            
-            </div>
-
-            
-
- 
-        </div>
-    )
+      </div>
+    </div>
+  );
 }

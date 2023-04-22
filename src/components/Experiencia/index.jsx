@@ -10,14 +10,14 @@ export function Experiencia() {
             <motion.h1>EXPERIÊNCIA</motion.h1>
             
             <div className={styles.container2}>
-             <h4>AMARÉ PUBLICIDADE E MARKETING</h4>
+             <h4>People Interactive Brasil</h4>
              <h2>Desenvolvedor Front-end</h2>
-             <h5>Jan - 2022</h5>
+             <h5>Jun - 2022</h5>
             </div>
 
             <div className={styles.container3}>
-             <h5>Amaré Publicidade e Marketing</h5>
-             <p>Desenvolvimento de paginas web usando Html, css, Javascript e wordpress como PJ </p>
+             <h5>People Interactive Brasil</h5>
+             <p>desenvolvimento de sites nas principais tecnologias como React, Typescript, Vtex IO e legacy, participando de um time integrando e resolvendo problemas na melhores tecnologias do mercado como react vtex e typescript </p>
             </div>
         </motion.div>
     )

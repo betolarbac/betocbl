@@ -1,7 +1,10 @@
 import styles from './styles.module.scss';
 import Link from 'next/link';
 import { motion } from "framer-motion"
+
 export function Header() {
+
+  const menuPath =  window.location.pathname;
 
     return(
       <header className={styles.headerContainer}>
@@ -16,20 +19,20 @@ export function Header() {
 
           <nav>
 
-          <Link href="/">
-              <a>Home</a>
+            <Link href="/">
+              <a className={`${menuPath === "/" ? styles.active : ""}`}>Home</a>
               </Link >
 
               <Link href="/sobre">
-              <a>Sobre</a>
+              <a className={`${menuPath === "/sobre" ? styles.active : ""}`}>Sobre</a>
               </Link>
 
               <Link href="/experiencia">
-              <a>Experiência</a>
+              <a className={`${menuPath === "/experiencia" ? styles.active : ""}`}>Experiência</a>
               </Link>
 
               <Link href="/projeto">
-               <a>Projetos</a>
+               <a className={`${menuPath === "/projeto" ? styles.active : ""}`}>Projetos</a>
               </Link>
               
           </nav>
