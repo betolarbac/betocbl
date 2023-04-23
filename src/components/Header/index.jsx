@@ -1,8 +1,14 @@
 import styles from "./styles.module.scss";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { useRouter } from 'next/router'
 
 export function Header() {
+
+  const router = useRouter()
+
+  
+
   return (
     <header className={styles.headerContainer}>
       <div className={styles.headerContent}>
@@ -17,25 +23,25 @@ export function Header() {
         </Link>
         <nav>
           <Link href="/">
-            <a >Home</a>
+            <a className={`${router.asPath === "/" ? styles.active : ""}`}>Home</a>
           </Link>
 
           <Link href="/sobre">
-            <a >
+            <a className={`${router.asPath === "/sobre" ? styles.active : ""}`}>
               Sobre
             </a>
           </Link>
 
           <Link href="/experiencia">
             <a
-             
+             className={`${router.asPath === "/experiencia" ? styles.active : ""}`}
             >
               Experiência
             </a>
           </Link>
 
           <Link href="/projeto">
-            <a >
+            <a className={`${router.asPath === "/projeto" ? styles.active : ""}`}>
               Projetos
             </a>
           </Link>
