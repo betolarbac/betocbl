@@ -23,27 +23,27 @@ export function Header() {
         </Link>
         <nav>
           <Link href="/">
-            <a className={`${router.asPath === "/" ? styles.active : ""}`}>Home</a>
+            <span className={`${router.asPath === "/" ? styles.active : ""}`}>Home</span>
           </Link>
 
           <Link href="/sobre">
-            <a className={`${router.asPath === "/sobre" ? styles.active : ""}`}>
+            <span className={`${router.asPath === "/sobre" ? styles.active : ""}`}>
               Sobre
-            </a>
+            </span>
           </Link>
 
           <Link href="/experiencia">
-            <a
+            <span
              className={`${router.asPath === "/experiencia" ? styles.active : ""}`}
             >
               Experiência
-            </a>
+            </span>
           </Link>
 
           <Link href="/projeto">
-            <a className={`${router.asPath === "/projeto" ? styles.active : ""}`}>
+            <span className={`${router.asPath === "/projeto" ? styles.active : ""}`}>
               Projetos
-            </a>
+            </span>
           </Link>
         </nav>
       </div>

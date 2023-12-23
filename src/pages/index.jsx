@@ -27,10 +27,10 @@ export default function Home() {
         <button
           type="button">
             <Link href="https://www.linkedin.com/in/roberto-larbac/">
-            <a>
+            <span>
             <FiLinkedin color="white" />
             LinkedIn
-          </a>
+          </span>
             </Link>
         </button>
 
@@ -38,10 +38,10 @@ export default function Home() {
           type="button"
           className={styles.button1}>
          <Link href="https://github.com/betolarbac">
-         <a>
+         <span>
             <FiGithub color="white" />
             GitHub
-          </a>
+          </span>
          </Link>
         </button>
 
